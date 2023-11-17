@@ -103,3 +103,38 @@ a {
     font-size: 1.75rem;
     text-align: center;
 }
+
+#whats-on {
+    padding: 32px;
+}
+
+#whats-on > h1 {
+    text-align: center;
+}
+
+#whats-on .features {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 16px;
+    padding: 48px;
+}
+
+
+#whats-on .features > article {
+    min-width: 200px;
+    width: calc((100% / 3) - (32px / 3));
+}
+
+#whats-on .features > article > h2 {
+    text-align: center;
+}
+
+#whats-on .features > article > p {
+    text-align: center;
+}
+
+#about-app {
+    background-color: #00B172;
+    color: white;
+}
